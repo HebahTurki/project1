@@ -1,0 +1,126 @@
+body{
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+}
+header{
+	padding: 10px;
+	text-align: center;
+	background-color: #b2b2b2;
+	background-image: url("/Users/hebahturki/Desktop/projectsHtml/assignment-1 2/images/flywheel.jpg");
+	background-size: cover;
+}
+h1{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase; 
+	font-size: 200%;
+}
+
+p{
+	font-size: 110%;
+}
+
+h2{
+	color: #000000;
+}
+section{
+	background-color: #ffffff;
+}
+.active{
+	color: rgba(20,24,135);
+    background-color: #ffffff;
+}
+nav a{
+	padding: 19px ;
+	color: rgba(0,0,0);
+	margin: 19px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+	text-decoration: none;
+	border: 1px ;
+  	border-radius: 5px;
+  	display: inline-block;
+  	width:12%;
+  	height: 50%;
+
+}
+.right{
+	width:70%;
+	display:inline-block;
+	float:left;
+}
+
+.left{
+	width:20%;
+	height:700px;
+	margin-right: 1%;
+	display:inline-block;
+	float:left;
+	padding: 5px 100xp;
+	background-color: rgba(114,114,41);
+}
+.left img{
+	border: 2px solid black;
+	margin: 30px auto;
+  	max-width: 80%;
+  	display: block;
+}
+
+table{
+
+	font: sans-serif,monospace, Verdana;
+	font-size:100%;
+	font-weight: normal;
+	line-height: 1.5;
+	width: 80%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+table th{
+	color: #ffffff;
+	background: rgb(122,159,25);
+	background: linear-gradient(180deg, rgba(122,159,25,1) 0%, rgba(78,154,83,1) 35%);
+	border: 2px solid seagreen;
+	border-style: thin;
+	border-radius: 3px 3px 0 0;	
+	border-bottom-width: thick;	
+	padding: 10px;
+}
+
+tr{
+	opacity: 0.8;
+	text-align: center;
+}
+
+table th:first-child{
+	text-align: left;
+
+}
+
+table tr td:first-child{
+	text-align: left;
+}
+table tr:hover{
+  opacity: 1.0;
+}
+
+table td{
+	color: #000000;
+	text-shadow: 1px 1px #808080;
+	padding: 10px;
+	background-color: rgba(231, 244, 215, 1.0);
+	border-radius: 2px;
+}
+
+tr:last-child>td:first-child {
+	-webkit-border-radius: 0 0 0 3px;
+	border-radius: 0 0 0 3px;	
+}
+
+tr:last-child>td:last-child{
+	-webkit-border-radius: 0 0 3px 0;
+	border-radius: 0 0 3px 0;	
+}
+
+
